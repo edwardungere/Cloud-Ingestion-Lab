@@ -8,11 +8,17 @@ Optional: Enable DNS hostnames
 
 # Create Subnets
 
+## Public Subnet
+
 Name: **Public-1A**
 
 Availability Zone: **us-east-1a**
 
 IPv4 CIDR Block: **10.0.0.1/24**
+
+Enable auto-assign public IPv4 addresses
+
+## Private Subnet
 
 Name: **Private-1A**
 
